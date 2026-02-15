@@ -247,7 +247,7 @@ def main():
     # Header
     st.markdown('<h1 class="main-header"> Neural Storyteller</h1>', 
                 unsafe_allow_html=True)
-    st.markdown('<p class="subtitle">AI-Powered Image Captioning using Seq2Seq Architecture</p>', 
+    st.markdown('<p class="subtitle">Image Captioning using Seq2Seq Architecture</p>', 
                 unsafe_allow_html=True)
     
     # Sidebar
@@ -516,3 +516,4 @@ def main():
 if __name__ == "__main__":
 
     main()
+
