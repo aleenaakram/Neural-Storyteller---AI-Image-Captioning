@@ -16,6 +16,14 @@ import time
 # Import local modules
 from vocabulary import Vocabulary
 from model_architecture import ImageCaptioningModel
+import os
+import gdown
+
+MODEL_PATH = "best_model.pth"
+
+if not os.path.exists(MODEL_PATH):
+    url = "https://drive.google.com/uc?id=1remVHR1phXIR19nV5TAXwU8BNPBWptLO"
+    gdown.download(url, MODEL_PATH, quiet=False)
 
 # Page configuration
 st.set_page_config(
@@ -506,4 +514,5 @@ def main():
 
 
 if __name__ == "__main__":
+
     main()
