@@ -1,2 +1,2 @@
-# Neural-Storyteller---AI-Image-Captioning
-AI-powered image captioning app using Seq2Seq architecture .
+# Neural-Storyteller---Image-Captioning
+ image captioning app using Seq2Seq architecture .
